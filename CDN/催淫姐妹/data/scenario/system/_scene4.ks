@@ -1,0 +1,8 @@
+[preload  storage="./data/bgimage/seishiga_064.png"  ]
+[preload  storage="./data/bgimage/seishiga_065.png"  ]
+[preload  storage="./data/bgimage/seishiga_066.png"  ]
+[preload  storage="./data/bgimage/seishiga_067.png"  ]
+[preload  storage="./data/bgimage/seishiga_068.png"  ]
+[preload  storage="./data/bgimage/white.png"  ]
+[preload  storage="./data/bgimage/seishiga_069.png"  ]
+[return]

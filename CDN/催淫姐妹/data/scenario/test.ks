@@ -1,0 +1,41 @@
+[_tb_system_call storage=system/_test.ks]
+
+[tb_hide_message_window  ]
+[bgmovie  time="1000"  volume="100"  loop="false"  storage="02-0.webm"  ]
+[wait_bgmovie  ]
+[bg  time="1"  method="crossfade"  storage="white.png"  ]
+[bgmovie  time="1000"  volume="100"  loop="false"  storage="02-1.webm"  ]
+[wait_bgmovie  ]
+[bg  time="1"  method="crossfade"  storage="white.png"  ]
+[bgmovie  time="1000"  volume="100"  loop="true"  storage="02-2.webm"  ]
+[button  storage="test.ks"  target="*test1"  graphic="next.png"  width="46"  height="64"  x="1857"  y="537"  _clickable_img=""  ]
+[s  ]
+*test1
+
+[stop_bgmovie  time="1"  ]
+[bg  time="1"  method="crossfade"  storage="white.png"  ]
+[cm  ]
+[bgmovie  time="1000"  volume="100"  loop="true"  storage="02-3.webm"  ]
+[button  storage="test.ks"  target="*test2"  graphic="next.png"  width="46"  height="64"  x="1857"  y="537"  _clickable_img=""  ]
+[tb_hide_message_window  ]
+[s  ]
+*test2
+
+[cm  ]
+[stop_bgmovie  time="500"  ]
+[bg  time="1"  method="crossfade"  storage="white.png"  ]
+[bgmovie  time="1000"  volume="100"  loop="true"  storage="02-4.webm"  ]
+[button  storage="test.ks"  target="*test3"  graphic="next.png"  width="46"  height="64"  x="1857"  y="537"  _clickable_img=""  ]
+[tb_hide_message_window  ]
+[s  ]
+*test3
+
+[bg  time="1"  method="crossfade"  storage="white.png"  ]
+[cm  ]
+[stop_bgmovie  time="500"  ]
+[bgmovie  time="500"  volume="100"  loop="false"  storage="02-5.webm"  ]
+[tb_hide_message_window  ]
+[wait_bgmovie  ]
+[bg  time="1000"  method="crossfade"  storage="seishiga_049.png"  ]
+[stop_bgmovie  time="500"  ]
+[cm  ]
